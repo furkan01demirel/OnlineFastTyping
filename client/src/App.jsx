@@ -199,7 +199,7 @@ export default function App() {
             <section className="card gameCard">
               <div className="gameHeader">
                 <div className="gameHeaderLeft">
-                  <h2>Yarış Alanı</h2>
+                  <h2>Oda: {room?.code || roomCode}</h2>
                   <Badge tone={roomReadyInfo.tone}>{roomReadyInfo.text}</Badge>
                 </div>
 
